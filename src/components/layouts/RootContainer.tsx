@@ -11,7 +11,7 @@ export const RootContainer = ({ children }: PropsWithChildren) => {
   return (
     <>
       {!disabledNavbar.includes(pathname) && <Navbar />}
-      <main className="mx-auto w-full max-w-3xl py-16">{children}</main>
+      <main className="mx-auto w-full max-w-4xl py-8">{children}</main>
     </>
   )
 }

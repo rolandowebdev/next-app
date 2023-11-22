@@ -22,7 +22,7 @@ const Login = () => {
 
   return (
     <section className="flex w-full flex-col items-center">
-      <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight text-primary lg:text-5xl">
+      <h1 className="scroll-m-20 text-3xl font-extrabold tracking-tight text-primary">
         Login
       </h1>
       <form onSubmit={handleLogin} className="mt-6 grid w-full max-w-sm gap-4">

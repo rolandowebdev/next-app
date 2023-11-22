@@ -1,5 +1,15 @@
 export type Product = {
   id: number
-  name: string
+  title: string
   price: number
+  description: string
+  category: string
+  image: string
+  rating: { rate: number; count: number }
+}
+
+export type ProductResponse = {
+  status: number
+  message: string
+  data: Product[]
 }

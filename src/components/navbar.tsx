@@ -11,7 +11,7 @@ export const Navbar = () => {
   const router = useRouter()
 
   return (
-    <header className="flex h-20 bg-muted px-16">
+    <header className="flex h-20 border border-neutral-800 bg-neutral-950 px-16">
       <nav className="mx-auto flex w-full max-w-4xl items-center justify-between">
         <span className="scroll-m-20 text-2xl font-semibold tracking-tight first:mt-0">
           App Router

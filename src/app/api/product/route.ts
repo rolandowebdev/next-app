@@ -1,23 +1,5 @@
-import type { Product } from '@/types/products'
+import { products } from '@/data/products'
 import { NextRequest, NextResponse } from 'next/server'
-
-const products: Product[] = [
-  {
-    id: 1,
-    name: 'Product 1',
-    price: 100
-  },
-  {
-    id: 2,
-    name: 'Product 2',
-    price: 200
-  },
-  {
-    id: 3,
-    name: 'Product 3',
-    price: 300
-  }
-]
 
 export async function GET(req: NextRequest) {
   const { searchParams } = new URL(req.url)
