@@ -1,8 +1,8 @@
-export default function Home() {
+export default function Profile() {
   return (
     <>
       <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight text-primary lg:text-5xl">
-        Home Page
+        Profile Page
       </h1>
       <p className="leading-7 [&:not(:first-child)]:mt-6">
         The king, seeing how much happier his subjects were, realized the error
